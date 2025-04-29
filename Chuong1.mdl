@@ -851,7 +851,7 @@
 					location   	(2162, 740)
 					anchor_loc 	1
 					nlines     	2
-					max_width  	792
+					max_width  	799
 					justify    	0
 					label      	"")
 				    icon       	"Business Entity"
@@ -891,7 +891,7 @@
 					location   	(2890, 1569)
 					anchor_loc 	1
 					nlines     	2
-					max_width  	805
+					max_width  	811
 					justify    	0
 					label      	"")
 				    icon       	"Business Entity"
@@ -931,7 +931,7 @@
 					location   	(3477, 1502)
 					anchor_loc 	1
 					nlines     	2
-					max_width  	805
+					max_width  	811
 					justify    	0
 					label      	"")
 				    icon       	"Business Entity"
@@ -1453,7 +1453,7 @@
 				supplier   	@41
 				vertices   	(list Points
 				    (667, 746)
-				    (1050, 434))
+				    (976, 494))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$10" @48
 				Parent_View 	@46
@@ -1465,7 +1465,7 @@
 				supplier   	@45
 				vertices   	(list Points
 				    (667, 746)
-				    (284, 1058))
+				    (284, 1056))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$11" @49
 			location   	(614, 961)
@@ -1492,7 +1492,7 @@
 				supplier   	@42
 				vertices   	(list Points
 				    (614, 961)
-				    (945, 827))
+				    (775, 895))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$13" @51
 				Parent_View 	@49
@@ -1504,7 +1504,7 @@
 				supplier   	@45
 				vertices   	(list Points
 				    (614, 961)
-				    (284, 1096))
+				    (284, 1097))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$14" @52
 			location   	(612, 1248)
@@ -1531,7 +1531,7 @@
 				supplier   	@43
 				vertices   	(list Points
 				    (612, 1248)
-				    (941, 1332))
+				    (941, 1331))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$16" @54
 				Parent_View 	@52
@@ -1570,7 +1570,7 @@
 				supplier   	@44
 				vertices   	(list Points
 				    (618, 1542)
-				    (952, 1851))
+				    (952, 1852))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$19" @57
 				Parent_View 	@55
@@ -1621,7 +1621,7 @@
 			supplier   	@40
 			vertices   	(list Points
 			    (1243, 1315)
-			    (1884, 1091))
+			    (1715, 1150))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Mua tai lieu" @60
 			location   	(2010, 1691)
@@ -1705,7 +1705,7 @@
 				supplier   	@60
 				vertices   	(list Points
 				    (2654, 1454)
-				    (2160, 1633))
+				    (2160, 1634))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$22" @64
 				Parent_View 	@62
@@ -1717,7 +1717,7 @@
 				supplier   	@61
 				vertices   	(list Points
 				    (2654, 1454)
-				    (3148, 1275))
+				    (3146, 1275))
 				line_style 	0)))
 		    (object DependencyView "" @65
 			font       	(object Font
@@ -1989,7 +1989,7 @@
 				supplier   	@72
 				vertices   	(list Points
 				    (945, 517)
-				    (1159, 444))
+				    (1313, 394))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$25" @77
 				Parent_View 	@75
@@ -2001,7 +2001,7 @@
 				supplier   	@74
 				vertices   	(list Points
 				    (945, 517)
-				    (732, 590))
+				    (732, 588))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$26" @78
 			location   	(956, 835)
@@ -2028,7 +2028,7 @@
 				supplier   	@73
 				vertices   	(list Points
 				    (956, 835)
-				    (1180, 980))
+				    (1176, 978))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$28" @80
 				Parent_View 	@78
@@ -2040,7 +2040,7 @@
 				supplier   	@74
 				vertices   	(list Points
 				    (956, 835)
-				    (732, 690))
+				    (732, 691))
 				line_style 	0)))
 		    (object DependencyView "" @81
 			font       	(object Font
@@ -2117,7 +2117,7 @@
 			client     	@73
 			supplier   	@70
 			vertices   	(list Points
-			    (1537, 1234)
+			    (1592, 1275)
 			    (2015, 1594))
 			line_style 	0)
 		    (object DependencyView "" @85
@@ -2196,7 +2196,7 @@
 			supplier   	@72
 			vertices   	(list Points
 			    (2398, 940)
-			    (1546, 510))
+			    (1632, 555))
 			line_style 	0)
 		    (object DependencyView "" @89
 			font       	(object Font
@@ -2695,7 +2695,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @120
 			    Parent_View 	@119
-			    location   	(1427, 1184)
+			    location   	(1428, 1184)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -2841,7 +2841,519 @@
 			Focus_Entry 	@94
 			origin     	(1092, 1819)
 			terminus   	(196, 1819)
-			ordinal    	8)))))
+			ordinal    	8)))
+	    (object ObjectDiagram "Muon sach"
+		mechanism_ref 	@39
+		quid       	"68108F37000C"
+		title      	"Muon sach"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object ObjectView "$UNNAMED$29" @127
+			location   	(420, 1512)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@127
+			    location   	(419, 1720)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	613
+			    justify    	0
+			    label      	"")
+			icon       	"Business Actor"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"6810712C020F"
+			width      	202
+			annotation 	4
+			autoResize 	TRUE
+			subobjects 	0
+			x_offset   	0.000000
+			y_offset   	0.000000)
+		    (object ObjectView "$UNNAMED$30" @128
+			location   	(1704, 1507)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@128
+			    location   	(1703, 1731)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	882
+			    justify    	0
+			    label      	"")
+			icon       	"Business Worker"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"68107133015E"
+			width      	292
+			height     	290
+			annotation 	4
+			autoResize 	TRUE
+			subobjects 	0
+			x_offset   	0.000000
+			y_offset   	0.000000)
+		    (object ObjectView "$UNNAMED$31" @129
+			location   	(1705, 278)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@129
+			    location   	(1705, 452)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	802
+			    justify    	0
+			    label      	"")
+			icon       	"Business Entity"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"6810714600B6"
+			annotation 	4
+			autoResize 	TRUE
+			subobjects 	0
+			x_offset   	0.000000
+			y_offset   	0.000000)
+		    (object ObjectView "$UNNAMED$32" @130
+			location   	(1706, 2618)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@130
+			    location   	(1706, 2792)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	802
+			    justify    	0
+			    label      	"")
+			icon       	"Business Entity"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"6810714B0087"
+			annotation 	4
+			autoResize 	TRUE
+			subobjects 	0
+			x_offset   	0.000000
+			y_offset   	0.000000)
+		    (object ObjectView "$UNNAMED$33" @131
+			location   	(3021, 1504)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@131
+			    location   	(3021, 1678)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	802
+			    justify    	0
+			    label      	"")
+			icon       	"Business Entity"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"681071500046"
+			annotation 	4
+			autoResize 	TRUE
+			subobjects 	0
+			x_offset   	0.000000
+			y_offset   	0.000000)
+		    (object LinkSelfView "" @132
+			location   	(1704, 1208)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"68107313039C"
+			client     	@128
+			supplier   	@128
+			vertices   	(list Points
+			    (1646, 1363)
+			    (1756, 1363))
+			line_style 	4)
+		    (object MessView "" @133
+			location   	(1704, 1164)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @134
+			    Parent_View 	@133
+			    location   	(1704, 1073)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"68107313039D"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	472
+			    justify    	0
+			    label      	"Kiem tra dieu kien muon"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			label      	(object SegLabel @135
+			    Parent_View 	@133
+			    location   	(1704, 1120)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"6810740202BD"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	569
+			    justify    	0
+			    label      	"Cap nhat thong tin muon sach"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			object_arc 	@132
+			pctDist    	0.500000
+			height     	45
+			orientation 	0
+			dir        	1
+			origin     	(1644, 1164)
+			terminus   	(1764, 1164))
+		    (object LinkView "" @136
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6810725F0124"
+			client     	@127
+			supplier   	@128
+			vertices   	(list Points
+			    (518, 1508)
+			    (1559, 1506))
+			line_style 	0)
+		    (object MessView "" @137
+			location   	(1038, 1463)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @138
+			    Parent_View 	@137
+			    location   	(1038, 1419)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"6810725F0125"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	402
+			    justify    	0
+			    label      	"Yeu cau muon sach"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			object_arc 	@136
+			pctDist    	0.500000
+			height     	45
+			orientation 	0
+			dir        	1
+			origin     	(978, 1463)
+			terminus   	(1098, 1463))
+		    (object MessView "" @139
+			location   	(1038, 1552)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @140
+			    Parent_View 	@139
+			    location   	(1038, 1597)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"68107335010C"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"[Khong hop le] Tu choi"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			label      	(object SegLabel @141
+			    Parent_View 	@139
+			    location   	(1038, 1644)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"6810768D0135"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"Sach muon"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			object_arc 	@136
+			pctDist    	0.500000
+			height     	45
+			orientation 	1
+			dir        	-1
+			origin     	(1097, 1552)
+			terminus   	(979, 1552))
+		    (object LinkView "" @142
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"681072E500FC"
+			client     	@128
+			supplier   	@129
+			vertices   	(list Points
+			    (1703, 1363)
+			    (1703, 370))
+			line_style 	0)
+		    (object MessView "" @143
+			location   	(1659, 866)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @144
+			    Parent_View 	@143
+			    location   	(1486, 785)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"681072E500FD"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"Kiem tra the thu vien"
+			    pctDist    	1.186441
+			    height     	173
+			    orientation 	0)
+			object_arc 	@142
+			pctDist    	0.500000
+			height     	45
+			orientation 	0
+			dir        	1
+			origin     	(1659, 925)
+			terminus   	(1659, 807))
+		    (object LinkView "" @145
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"681073B50334"
+			client     	@128
+			supplier   	@130
+			vertices   	(list Points
+			    (1703, 1649)
+			    (1703, 2523))
+			line_style 	0)
+		    (object MessView "" @146
+			location   	(1748, 2086)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @147
+			    Parent_View 	@146
+			    location   	(1793, 2039)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"681073F1033D"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"[Hop le] Tim kiem sach"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			label      	(object SegLabel @148
+			    Parent_View 	@146
+			    location   	(1793, 2086)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"6810741D0135"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	472
+			    justify    	0
+			    label      	"Cap nhat trang thai sach"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			object_arc 	@145
+			pctDist    	0.500000
+			height     	45
+			orientation 	0
+			dir        	1
+			origin     	(1748, 2026)
+			terminus   	(1748, 2146))
+		    (object LinkView "" @149
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"68107438029D"
+			client     	@128
+			supplier   	@131
+			vertices   	(list Points
+			    (1847, 1503)
+			    (2891, 1504))
+			line_style 	0)
+		    (object MessView "" @150
+			location   	(2369, 1459)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			line_color 	3342489
+			label      	(object SegLabel @151
+			    Parent_View 	@150
+			    location   	(2369, 1415)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"68107438029E"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	632
+			    justify    	0
+			    label      	"Cap nhat so lan muon cua tac gia"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			object_arc 	@149
+			pctDist    	0.500000
+			height     	45
+			orientation 	0
+			dir        	1
+			origin     	(2309, 1459)
+			terminus   	(2429, 1459))))))
     root_category 	(object Class_Category "Logical View"
 	quid       	"5ADC2D950169"
 	exportControl 	"Public"
