@@ -1407,7 +1407,7 @@
 					location   	(2415, 1374)
 					anchor_loc 	1
 					nlines     	2
-					max_width  	776
+					max_width  	763
 					justify    	0
 					label      	"")
 				    icon       	"Business Entity"
@@ -1437,7 +1437,7 @@
 					location   	(1269, 2643)
 					anchor_loc 	1
 					nlines     	2
-					max_width  	776
+					max_width  	763
 					justify    	0
 					label      	"")
 				    icon       	"Business Entity"
@@ -2056,7 +2056,7 @@
 				supplier   	@61
 				vertices   	(list Points
 				    (864, 714)
-				    (1011, 485))
+				    (1013, 485))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$14" @71
 				Parent_View 	@69
@@ -2068,7 +2068,7 @@
 				supplier   	@68
 				vertices   	(list Points
 				    (864, 714)
-				    (712, 943))
+				    (715, 943))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$15" @72
 			location   	(987, 890)
@@ -2095,7 +2095,7 @@
 				supplier   	@64
 				vertices   	(list Points
 				    (987, 890)
-				    (1070, 849))
+				    (1240, 761))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$17" @74
 				Parent_View 	@72
@@ -2107,7 +2107,7 @@
 				supplier   	@68
 				vertices   	(list Points
 				    (987, 890)
-				    (734, 1015))
+				    (734, 1019))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$18" @75
 			location   	(1105, 1096)
@@ -2146,7 +2146,7 @@
 				supplier   	@68
 				vertices   	(list Points
 				    (1105, 1096)
-				    (734, 1074))
+				    (734, 1075))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$21" @78
 			location   	(1008, 1312)
@@ -2185,10 +2185,10 @@
 				supplier   	@68
 				vertices   	(list Points
 				    (1008, 1312)
-				    (734, 1132))
+				    (734, 1133))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$24" @81
-			location   	(920, 1550)
+			location   	(910, 1534)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -2204,32 +2204,32 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$25" @82
 				Parent_View 	@81
-				location   	(284, 479)
+				location   	(274, 463)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"681047CD030B"
 				client     	@81
 				supplier   	@67
 				vertices   	(list Points
-				    (920, 1550)
-				    (1097, 1850))
+				    (910, 1534)
+				    (1100, 1852))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$26" @83
 				Parent_View 	@81
-				location   	(284, 479)
+				location   	(274, 463)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"681047CD030D"
 				client     	@81
 				supplier   	@68
 				vertices   	(list Points
-				    (920, 1550)
-				    (721, 1216))
+				    (910, 1534)
+				    (721, 1217))
 				line_style 	0)))))
-	    (object InteractionDiagram "QuanLyTheNganHang"
+	    (object InteractionDiagram "Thuc hien giao dich"
 		mechanism_ref 	@59
 		quid       	"681A3369000E"
-		title      	"QuanLyTheNganHang"
+		title      	"Thuc hien giao dich"
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
@@ -3078,10 +3078,10 @@
 			location   	(2661, 2205)
 			line_color 	3342489
 			fill_color 	13434879)))
-	    (object ObjectDiagram "QuanLyTheNganHang"
+	    (object ObjectDiagram "Thuc hien giao dich"
 		mechanism_ref 	@59
 		quid       	"681A39A9014B"
-		title      	"QuanLyTheNganHang"
+		title      	"Thuc hien giao dich"
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
@@ -3104,7 +3104,7 @@
 			    location   	(995, 727)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	573
+			    max_width  	577
 			    justify    	0
 			    label      	"")
 			icon       	"Business Actor"
@@ -3134,7 +3134,7 @@
 			    location   	(999, 2409)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	760
+			    max_width  	763
 			    justify    	0
 			    label      	"")
 			icon       	"Business Entity"
@@ -3163,7 +3163,7 @@
 			    location   	(3222, 2448)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	760
+			    max_width  	763
 			    justify    	0
 			    label      	"")
 			icon       	"Business Entity"
@@ -3192,7 +3192,7 @@
 			    location   	(3185, 764)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	845
+			    max_width  	849
 			    justify    	0
 			    label      	"")
 			icon       	"Business Worker"
@@ -3457,7 +3457,7 @@
 			line_color 	3342489
 			label      	(object SegLabel @155
 			    Parent_View 	@154
-			    location   	(2067, 617)
+			    location   	(2067, 805)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -3478,7 +3478,7 @@
 			    orientation 	0)
 			label      	(object SegLabel @156
 			    Parent_View 	@154
-			    location   	(2067, 664)
+			    location   	(2067, 758)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
